@@ -8,7 +8,8 @@ import { AddressformComponent } from './shared-components/addressform/addressfor
 import { EducationformComponent } from './shared-components/educationform/educationform.component';
 import { SkillsformComponent } from './shared-components/skillsform/skillsform.component';
 import { HomeComponent } from './home/home.component';
-import {MatIcon} from '@angular/material/icon';
+import { MatTabsModule } from '@angular/material/tabs'; 
+
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
@@ -25,8 +26,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatIcon,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatTabsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
